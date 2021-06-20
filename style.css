@@ -1,0 +1,23 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: magenta;
+}
+
+canvas {
+    animation-name: cookies;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cookies {
+    from {
+        box-shadow: 1px 1px 38px purple;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px blue;
+    }
+}
